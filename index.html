@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Dynamic Quiz Generator</h1>
+        <div id="question-container" class="question"></div>
+        <div id="options-container" class="options"></div>
+        <button id="next-question-btn">Next Question</button>
+        <div id="result"></div>
+        <div id="emoji-rain" class="emoji-rain"></div>
+    </div>
+
+    <!-- About Link and Modal -->
+    <div class="about-link" onclick="showAboutModal()">About</div>
+    <div id="about-modal" class="about-modal" onclick="hideAboutModal()">
+        <div class="about-content" onclick="event.stopPropagation()">
+            <div class="close-modal" onclick="hideAboutModal()">X</div>
+            <h2>About</h2>
+            <p>This project was created by Dhruv Jadav. It is a dynamic quiz generator that fetches questions from an API and allows users to take quizzes on various topics.</p>
+            <p>Time taken to complete: [Your estimated time]</p>
+            <p>Quote: "Coding is not just about writing lines of code; it's about creating something that makes a difference."</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
