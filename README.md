@@ -1,6 +1,6 @@
-# Sinple Quiz Generator
+# Simple Quiz Generator 🌟
 
-Welcome to the Dynamic Quiz Generator, a project created by Dhruv Jadav! 🚀
+Welcome to the Simple Quiz Generator, a project created by Dhruv Jadav! 🚀
 
 ## Overview
 
