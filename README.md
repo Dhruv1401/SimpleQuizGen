@@ -24,7 +24,7 @@ This project was conceived and developed by Dhruv Jadav. It's a result of passio
 
 ## Time Taken
 
-The estimated time taken to complete this project: [Your estimated time].
+The time taken to complete this project: 4hr 37min
 
 ## Quote
 
